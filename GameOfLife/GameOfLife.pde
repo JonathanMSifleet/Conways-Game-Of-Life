@@ -88,7 +88,7 @@ void renderInitButton() {
 
 void createArrayOfCells() {
   int boxX = gap+1;
-  int boxY = gap+1;
+  int boxY = (gap*2)+1;
 
   for (int j = 0; j < boardSize; j++) {
     for (int i = 0; i < boardSize; i++) {
